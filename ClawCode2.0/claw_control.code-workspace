@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../bio-inspiredrobotscode/biologically-inspired-perching-drone/claw_control"
+		},
+		{
+			"name": "ClawCode2.0",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
