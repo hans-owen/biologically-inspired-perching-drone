@@ -6,7 +6,14 @@ By using 3D printing manufacturing and easy to find off-the-shelf parts we hope 
 Currently, only a single preliminary version has been released, which offers effective perching for 5-inch drones that can be manually triggered by a pilot via BetaFlight firmware. Although this is a good first-step/proof-of-concept, the idea has far more potential. Further iterations could offer support to more drones of different sizes and software that functions together with autopilot firmware (e.g., Ardupilot) would allow for full automation.
 
 ## Table of Contents
-
+1. Directory Structure
+2. Getting Started
+ 2.1. 3D Printing and Hardware Assembly
+ 2.2. Electronics Assembly and Software.
+4. How to Use
+5. Credits
+6. Licences
+7. How to Contribute
 
 The files within the project contain both the hardware and software required to build a claw attachment for a drone.
 
