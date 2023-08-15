@@ -8,12 +8,17 @@ Currently, only a single preliminary version has been released, which offers eff
 ## Table of Contents
 1. Directory Structure
 2. Getting Started
- 2.1. 3D Printing and Hardware Assembly
- 2.2. Electronics Assembly and Software.
+   1. 3D Printing
+   2. Hardware Assembly
+   3. Electronics Assembly
+   4. Software
 4. How to Use
-5. Credits
-6. Licences
-7. How to Contribute
+   1. Setting Up BetaFlight
+   2. Connect ELRS controller
+   3. Actuate Switch
+6. Credits
+7. Licences
+8. How to Contribute
 
 The files within the project contain both the hardware and software required to build a claw attachment for a drone.
 
