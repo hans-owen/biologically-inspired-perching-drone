@@ -32,6 +32,31 @@ The files within the project contain both the hardware and software required to 
 * [hardware/](./biologically-inspired-perching-drone/hardware)          - folder containing hardware (both electronics & CAD)
 * [README.md](./biologically-inspired-perching-drone/README.md)
 
+## Getting Started
+To get started with constructing the modular perching attachment for drones ensure you have the following components, links have been provided to the exact components used in our version of the build:
+* 3D Printer
+* PLA Filament
+* 4x Bearings
+* 4x M3 Screws
+* 2x M1.5 Self-tapping Screws
+* Sand Paper 120 Grit (lower is better)
+* Super Glue
+* Raspberry Pi Pico
+* Metal-Geared DC Motor
+* 22AWG Black, Red, and White Wire
+* H-Bridge
+* Resistor
+
+### 3D Printing
+To 3D print the mechanicals parts for the perching claw, you need to download the relevant STL files from the link below:
+
+When printing components with gears ensure that the layers of the print are parallel to the direction of force transmission from the gear to reduce the risk of gears shearing (see below). The design is fully finctional with PLA, however, can be made more robust using PETG or ABS filaments.
+
+If you wish to remix the hardware designs, the SolidPart files can also be found from the link above and consider submitting the modified design as a remix so that others can easily find custom designs that may be useful for them.
+
+### Hardware Assembly
+
+
 ## Hardware
 In this folder you can find STL files that can be downloaded for 3D printing and the original parameterised SolidWorks CAD files and assemblies that can be modified to customise/remix the design to suit different drone and hardware configurations. 
 * [Bivalve_7_talon/](./biologically-inspired-perching-drone/hardware/Bivalve_7_talon) - folder containing the Solidworks part files and STL files for a version of the bivalve claw mechanism with additional claws (3-4 config).
