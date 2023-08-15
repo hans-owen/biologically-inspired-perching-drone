@@ -1,5 +1,12 @@
 # Biologically Inspired Perching Drone
-This project is inspired by the claws of birds of prey and their unique biological ratcheting mechanism that allows them to tightly and securely grip with their talons without relying entirely on muscular strength.
+This project aims to develop an effective attachable modular device for enabling drones to perch on cyclindrical objects, while maintaining the ability to land on flat surfaces. It was originally inspired by the claws of birds of prey and their unique biological ratcheting mechanism that allows them to tightly and securely grip with their talons without relying entirely on muscular strength.
+
+By using 3D printing manufacturing and easy to find off-the-shelf parts we hope to provide a design that is accessible and easily implemented into different drones. Additionally, we hope to make it easy for others to contribute their ideas, modifications, and remixes of original designs.
+
+Currently, only a single preliminary version has been released, which offers effective perching for 5-inch drones that can be manually triggered by a pilot via BetaFlight firmware. Although this is a good first-step/proof-of-concept, the idea has far more potential. Further iterations could offer support to more drones of different sizes and software that functions together with autopilot firmware (e.g., Ardupilot) would allow for full automation.
+
+## Table of Contents
+
 
 The files within the project contain both the hardware and software required to build a claw attachment for a drone.
 
