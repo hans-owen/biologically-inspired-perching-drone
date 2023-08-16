@@ -23,7 +23,7 @@ Currently, only a single preliminary version has been released, which offers eff
 The files within the project contain both the hardware and software required to build a claw attachment for a drone.
 
 ## Directory Structure
-* [claw_control/](./biologically-inspired-perching-drone/claw_control)  - folder containing firmware
+* [control_code/](./biologically-inspired-perching-drone/claw_control)  - folder containing pico firmware
   * [include/](./biologically-inspired-perching-drone/claw_control/include)
   * [lib/](./biologically-inspired-perching-drone/claw_control/lib)
   * [src/](./biologically-inspired-perching-drone/claw_control/src)
@@ -33,15 +33,15 @@ The files within the project contain both the hardware and software required to 
 * [README.md](./biologically-inspired-perching-drone/README.md)
 
 ## Getting Started
-To get started with constructing the modular perching attachment for drones ensure you have the following components, links have been provided to the exact components used in our version of the build:
-* 3D Printer
-* PLA Filament
+To get started with constructing the modular perching attachment for drones ensure you have the following components, links (UK purchasers) have been provided to the exact components used in our version of the build:
+* [3D Printer](https://www.crealityofficial.co.uk/products/official-creality-ender-3-3d-printer?gclid=CjwKCAjw5_GmBhBIEiwA5QSMxMXDsvX_tW-ISPtKeVc1NaB69DFpaEF8qKHRZwr1OY2PAPOxLsnU4xoC1LYQAvD_BwE)
+* [PLA Filament](https://www.amazon.co.uk/s?k=pla+filament&adgrpid=78891941511&hvadid=606046905090&hvdev=c&hvlocphy=9045801&hvnetw=g&hvqmt=e&hvrand=5819192572464950726&hvtargid=kwd-29312074397&hydadcr=13760_2300773&tag=googhydr-21&ref=pd_sl_1zij8bcx5k_e)
 * 4x Bearings
 * 4x M3 Screws
 * 2x M1.5 Self-tapping Screws
-* Sand Paper 120 Grit (lower is better)
-* Super Glue
-* Raspberry Pi Pico
+* [Sand Paper 120 Grit (lower grit works better)](https://www.amazon.co.uk/s?k=sandpaper&crid=HUOTKIT8XZ5P&sprefix=sandpap%2Caps%2C128&ref=nb_sb_noss_2)
+* [Super Glue](https://www.amazon.co.uk/Gorilla-4044205-Superglue-15g/dp/B003CT4XT0/ref=sxts_rp_s_1_0?content-id=amzn1.sym.07198d44-a16f-4503-b71e-3f4c67470a0f%3Aamzn1.sym.07198d44-a16f-4503-b71e-3f4c67470a0f&crid=3U46AON4XNTIE&cv_ct_cx=super%2Bglue&keywords=super%2Bglue&pd_rd_i=B003CT4XT0&pd_rd_r=47f26ec3-a199-42ab-9789-1182f3514e07&pd_rd_w=P5udf&pd_rd_wg=kLEzL&pf_rd_p=07198d44-a16f-4503-b71e-3f4c67470a0f&pf_rd_r=HG953RS7NASVVNRHSK70&qid=1692183417&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=super%2Bglu%2Caps%2C127&sr=1-1-1890b328-3a40-4864-baa0-a8eddba1bf6a&th=1)
+* [Raspberry Pi Pico](https://thepihut.com/products/raspberry-pi-pico)
 * Metal-Geared DC Motor
 * 22AWG Black, Red, and White Wire
 * H-Bridge
