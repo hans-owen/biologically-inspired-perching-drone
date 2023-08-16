@@ -34,6 +34,7 @@ The files within the project contain both the hardware and software required to 
 
 ## Getting Started
 To get started with constructing the modular perching attachment for drones ensure you have the following components, links (UK purchasers) have been provided to the exact components used in our version of the build:
+#### Claw
 * [3D Printer](https://www.crealityofficial.co.uk/products/official-creality-ender-3-3d-printer?gclid=CjwKCAjw5_GmBhBIEiwA5QSMxMXDsvX_tW-ISPtKeVc1NaB69DFpaEF8qKHRZwr1OY2PAPOxLsnU4xoC1LYQAvD_BwE)
 * [PLA Filament](https://www.amazon.co.uk/s?k=pla+filament&adgrpid=78891941511&hvadid=606046905090&hvdev=c&hvlocphy=9045801&hvnetw=g&hvqmt=e&hvrand=5819192572464950726&hvtargid=kwd-29312074397&hydadcr=13760_2300773&tag=googhydr-21&ref=pd_sl_1zij8bcx5k_e)
 * 4x Bearings
@@ -46,6 +47,14 @@ To get started with constructing the modular perching attachment for drones ensu
 * 22AWG Black, Red, and White Wire
 * H-Bridge
 * Resistor
+
+#### Drone
+Here is a list of the components we used in the construction of test drone in case you would like directly replicate the build, however this project can be easily adapted to any drone flight controller:
+* Flight Controller + ESC Stack
+* Motors
+* ELRS Reciever
+* Drone Frame
+* LiPo
 
 ### 3D Printing
 To 3D print the mechanicals parts for the perching claw, you need to download the relevant STL files from the link below:
