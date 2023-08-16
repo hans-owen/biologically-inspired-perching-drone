@@ -42,7 +42,7 @@ To get started with constructing the modular perching attachment for drones ensu
 * [Sand Paper 120 Grit (lower grit works better)](https://www.amazon.co.uk/s?k=sandpaper&crid=HUOTKIT8XZ5P&sprefix=sandpap%2Caps%2C128&ref=nb_sb_noss_2)
 * [Super Glue](https://www.amazon.co.uk/Gorilla-4044205-Superglue-15g/dp/B003CT4XT0/ref=sxts_rp_s_1_0?content-id=amzn1.sym.07198d44-a16f-4503-b71e-3f4c67470a0f%3Aamzn1.sym.07198d44-a16f-4503-b71e-3f4c67470a0f&crid=3U46AON4XNTIE&cv_ct_cx=super%2Bglue&keywords=super%2Bglue&pd_rd_i=B003CT4XT0&pd_rd_r=47f26ec3-a199-42ab-9789-1182f3514e07&pd_rd_w=P5udf&pd_rd_wg=kLEzL&pf_rd_p=07198d44-a16f-4503-b71e-3f4c67470a0f&pf_rd_r=HG953RS7NASVVNRHSK70&qid=1692183417&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=super%2Bglu%2Caps%2C127&sr=1-1-1890b328-3a40-4864-baa0-a8eddba1bf6a&th=1)
 * [Raspberry Pi Pico](https://thepihut.com/products/raspberry-pi-pico)
-* Metal-Geared DC Motor
+* [Metal-Geared DC Motor 298:1](https://thepihut.com/products/micro-metal-gearmotor?variant=35654648273&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8mLdStrBHD3Pgv4j3L-IIv1ZZDEiXFt3Oo2TUNnxJZUXy6bFfqBKtkaAjwJEALw_wcB)
 * 22AWG Black, Red, and White Wire
 * H-Bridge
 * Resistor
