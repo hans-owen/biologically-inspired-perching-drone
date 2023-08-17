@@ -37,7 +37,7 @@ To get started with constructing the modular perching attachment for drones ensu
 #### Claw
 * [3D Printer](https://www.crealityofficial.co.uk/products/official-creality-ender-3-3d-printer?gclid=CjwKCAjw5_GmBhBIEiwA5QSMxMXDsvX_tW-ISPtKeVc1NaB69DFpaEF8qKHRZwr1OY2PAPOxLsnU4xoC1LYQAvD_BwE)
 * [PLA Filament](https://www.amazon.co.uk/s?k=pla+filament&adgrpid=78891941511&hvadid=606046905090&hvdev=c&hvlocphy=9045801&hvnetw=g&hvqmt=e&hvrand=5819192572464950726&hvtargid=kwd-29312074397&hydadcr=13760_2300773&tag=googhydr-21&ref=pd_sl_1zij8bcx5k_e)
-* 4x Bearings
+* [4x OD12mm, ID8mm Bearings](https://simplybearings.co.uk/shop/p2772/Budget-MR1282Z-Metal-Shielded-Deep-Groove-Ball-Bearing-8x12x3.5mm/product_info.html)
 * [4x 25mm M3 Screws](https://www.accu.co.uk/cap-head-screws/2804-SSC-M3-25-A2?uk_google_shopping=1&c=3&gclid=CjwKCAjwivemBhBhEiwAJxNWN9nE6UgO0qUt18KDeclZdjt5iMfUIQenEBjWHBwZsNzfqwtM-vBovRoC3A4QAvD_BwE)
 * [2x M1.5 Self-tapping Screws](https://cpc.farnell.com/neutrik/a-screw-1-8/screws-for-d-mounts-a-type/dp/AV18050?mckv=s_dc|pcrid|426684131039|kword||match||plid||slid||product|AV18050|pgrid|100371158878|ptaid|pla-1869734976461|&CMP=KNC-GUK-CPC-SHOPPING-9262013734-100371158878-AV18050&s_kwcid=AL!5616!3!426684131039!!!network}!1869734976461!&gclid=CjwKCAjwivemBhBhEiwAJxNWN8YT4Eb2GvifQI9ZS6wh_OzB7m4AdSvY-hiyPY48TIBvsaB6Vbc0dBoCt_0QAvD_BwE)
 * [Sand Paper 120 Grit (lower grit works better)](https://www.amazon.co.uk/s?k=sandpaper&crid=HUOTKIT8XZ5P&sprefix=sandpap%2Caps%2C128&ref=nb_sb_noss_2)
@@ -46,7 +46,7 @@ To get started with constructing the modular perching attachment for drones ensu
 * [Metal-Geared DC Motor 298:1](https://thepihut.com/products/micro-metal-gearmotor?variant=35654648273&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8mLdStrBHD3Pgv4j3L-IIv1ZZDEiXFt3Oo2TUNnxJZUXy6bFfqBKtkaAjwJEALw_wcB)
 * [22AWG Black, Red, and White Wire](https://www.amazon.co.uk/TUOFENG-Electric-Flexible-Different-Electronic/dp/B07G72DRKC/ref=sr_1_1_sspa?crid=3U9S56MR5OMVS&keywords=22awg%2Bsilicone%2Bwire&qid=1692281205&sprefix=22AW%2Caps%2C161&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
 * [L9110H H-Bridge](https://thepihut.com/products/l9110h-h-bridge-motor-driver-for-dc-motors-8-dip?variant=39823794634947)
-* Resistor
+* [10Ω Resistor](https://thepihut.com/products/resistor-packs?variant=37986550481091&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=CjwKCAjwivemBhBhEiwAJxNWN_s7JJdB-hqIBEtf6_qF9BAwgs8ZXRBKjHlvWR9Kjt12iqXppCH54xoCAaQQAvD_BwE)
 * [Strip Board](https://thepihut.com/products/universal-proto-board-pcbs-4cm-x-6cm-3-pack)
 
 #### Drone
