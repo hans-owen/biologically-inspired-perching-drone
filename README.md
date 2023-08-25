@@ -51,10 +51,10 @@ To get started with constructing the modular perching attachment for drones ensu
 
 #### Drone
 Here is a list of the components we used in the construction of test drone in case you would like directly replicate the build, however this project can be easily adapted to any drone flight controller:
-* [Flight Controller + ESC Stack](https://www.unmannedtechshop.co.uk/product/speedybee-f405-v3-bls-50a-4in1-flight-stack/?gclid=CjwKCAjwivemBhBhEiwAJxNWN6jE5y21ktbdwFi6sgO14pVqPU7F3PHDaCu1INcH72N3wYPJjWJN5hoCyHEQAvD_BwE)
+* [SpeedyBee F405V3 Flight Controller + ESC Stack](https://www.unmannedtechshop.co.uk/product/speedybee-f405-v3-bls-50a-4in1-flight-stack/?gclid=CjwKCAjwivemBhBhEiwAJxNWN6jE5y21ktbdwFi6sgO14pVqPU7F3PHDaCu1INcH72N3wYPJjWJN5hoCyHEQAvD_BwE)
 * [Motors](https://cheapdrone.co.uk/dys-sun-fun-sf2207-2207-2400kv-2750kv-4-5s-brushless-motor-cw-thread-for-rc-drone-fpv-racing-drone-parts)
-* [ELRS Reciever](https://www.unmannedtechshop.co.uk/product/betafpv-elrs-lite-receiver-2-4ghz-flat-antenna/)
-* [Drone Frame](https://www.quadcopters.co.uk/tbs-source-one/tbs-source-two-racing-frame-v01)
+* [BetaFlight ELRS Reciever](https://www.unmannedtechshop.co.uk/product/betafpv-elrs-lite-receiver-2-4ghz-flat-antenna/)
+* [TBS Open Source Drone Frame](https://www.quadcopters.co.uk/tbs-source-one/tbs-source-two-racing-frame-v01)
 * [LiPo](https://www.amazon.co.uk/GOLDBAT-Battery-Airplane-Quadcopter-Helicopter/dp/B0BVZDYGQ8/ref=sr_1_5?keywords=3s+2200mah+lipo&qid=1692314138&sprefix=3S+2%2Caps%2C117&sr=8-5)
 
 ### 3D Printing
