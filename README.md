@@ -60,7 +60,7 @@ Here is a list of the components we used in the construction of test drone in ca
 ### 3D Printing
 To 3D print the mechanicals parts for the perching claw, you need to download the relevant STL files from the link below:
 
-When printing components with gears ensure that the layers of the print are parallel to the direction of force transmission from the gear to reduce the risk of gears shearing (see below). The design is fully finctional with PLA, however, can be made more robust using PETG or ABS filaments.
+When printing components with gears ensure that the layers of the print are parallel to the direction of force transmission from the gear to reduce the risk of gears shearing (see below). The design is fully finctional with 100% in-fill PLA, however, can be made more robust using PETG or ABS filaments.
 
 If you wish to remix the hardware designs, the SolidPart files can also be found from the link above and consider submitting the modified design as a remix so that others can easily find custom designs that may be useful for them.
 
@@ -74,6 +74,9 @@ If you wish to remix the hardware designs, the SolidPart files can also be found
 7. Attach the gripper to the drone by threading the 25mm M3 screws through the flight controller mount and the drone frame, screw them into the nuts of 3D-printed top mount until the FC and the gripper are firmly attached to the drone frame. (Do not overtighten as this can cause damage to your FC!)
 
 This concludes the hardware assembly of this project, next we move onto the electronics and finally conclude with the software.
+
+### Electronics Assembly
+We recommend to first layout the circuit on a breadboard (see picture below) and perform a test to ensure all your components are functional before soldering them to a prototyping board.
 
 ## Hardware
 In this folder you can find STL files that can be downloaded for 3D printing and the original parameterised SolidWorks CAD files and assemblies that can be modified to customise/remix the design to suit different drone and hardware configurations. 
