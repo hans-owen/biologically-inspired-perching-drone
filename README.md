@@ -65,7 +65,15 @@ When printing components with gears ensure that the layers of the print are para
 If you wish to remix the hardware designs, the SolidPart files can also be found from the link above and consider submitting the modified design as a remix so that others can easily find custom designs that may be useful for them.
 
 ### Hardware Assembly
+1. After printing cut out and attach sandpaper to the inside of the claw with superglue to provide a high friction surface for the gripper.
+2. Attach the metal-geared DC motor to the side mount of your choice and screw in place with the 1.5mm self tapping screws.
+3. After the motor is attached, press-fit the bearings into each of the cut-outs in the side mounts.
+4. Press fit the claw onto the motor and bearings, ensure that when the two claw part gears mesh that the claws themselves are parallel with each other.
+5. Press fit M3 nuts into the cut-outs on the top mount.
+6. Attach and super-glue the top mount to the side mounts with claws attached by inserting the side mount tabs into the top mount.
+7. Attach the gripper to the drone by threading the 25mm M3 screws through the flight controller mount and the drone frame, screw them into the nuts of 3D-printed top mount until the FC and the gripper are firmly attached to the drone frame. (Do not overtighten as this can cause damage to your FC!)
 
+This concludes the hardware assembly of this project, next we move onto the electronics and finally conclude with the software.
 
 ## Hardware
 In this folder you can find STL files that can be downloaded for 3D printing and the original parameterised SolidWorks CAD files and assemblies that can be modified to customise/remix the design to suit different drone and hardware configurations. 
