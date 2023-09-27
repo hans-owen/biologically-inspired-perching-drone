@@ -77,6 +77,11 @@ This concludes the hardware assembly of this project, next we move onto the elec
 
 ### Electronics Assembly
 We recommend to first layout the circuit on a breadboard (see picture below) and perform a test to ensure all your components are functional before soldering them to a prototyping board.
+![Breadboard/](./images/breadboard.png)
+
+The simple circuit uses a Raspberry Pi Pico to take a 3.3V GPIO output from the drone FC and use it to actuate the claw mechanism via an H-bridge. This FC GPIO pin can be mapped to the RF transmitter to manually actuate the claw or be addressed directly in the FC firmware. A shunt resistor is used to measure the current used by the motor and turn off the motor when the claw is fully opened to prevent the mechanism from damaging itself and wasting power. Once the circuit is functional on a breadboard it can easily be soldered together using strip-board for a permanent solution capable of being mounted on the drone.
+
+
 
 ## Hardware
 In this folder you can find STL files that can be downloaded for 3D printing and the original parameterised SolidWorks CAD files and assemblies that can be modified to customise/remix the design to suit different drone and hardware configurations. 
