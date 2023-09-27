@@ -13,12 +13,11 @@ Currently, only a single preliminary version has been released, which offers eff
    3. Electronics Assembly
    4. Software
 4. How to Use
-   1. Setting Up BetaFlight
+   1. Setting Up FC firmware
    2. Connect ELRS controller
    3. Actuate Switch
 6. Credits
 7. Licences
-8. How to Contribute
 
 The files within the project contain both the hardware and software required to build a claw attachment for a drone.
 
@@ -80,18 +79,37 @@ We recommend to first layout the circuit on a breadboard (see picture below) and
 ![Breadboard/](./images/breadboard.png)
 
 The simple circuit uses a Raspberry Pi Pico to take a 3.3V GPIO output from the drone FC and use it to actuate the claw mechanism via an H-bridge. This FC GPIO pin can be mapped to the RF transmitter to manually actuate the claw or be addressed directly in the FC firmware. A shunt resistor is used to measure the current used by the motor and turn off the motor when the claw is fully opened to prevent the mechanism from damaging itself and wasting power. Once the circuit is functional on a breadboard it can easily be soldered together using strip-board for a permanent solution capable of being mounted on the drone.
+![ElectronicsMount/](./images/mountedelectronics.jpg)
 
+### Software
 
+The software was developed using VS Code and platform.io to compile the code for the Raspberry Pi Pico using the Arduino framework. To compile the firmware for yourself, download the control_code directory and open in VS Code with the platform.io plug-in, once the project is recognised simply compile the code using platform.io and upload the firmware.uf2 file to the RPi Pico via the boot button. To set up the drone FC firmware see how to use section below.
 
-## Hardware
-In this folder you can find STL files that can be downloaded for 3D printing and the original parameterised SolidWorks CAD files and assemblies that can be modified to customise/remix the design to suit different drone and hardware configurations. 
-* [Bivalve_7_talon/](./biologically-inspired-perching-drone/hardware/Bivalve_7_talon) - folder containing the Solidworks part files and STL files for a version of the bivalve claw mechanism with additional claws (3-4 config).
-* [Bivalve_Claw_Mechanism/](./biologically-inspired-perching-drone/hardware/Bivalve_Claw_Mechanism) - folder containing the SolidWorks part files, STL files, and assembly for the bivalve claw mechanism design.
-* [Tendon_Arm/](./biologically-inspired-perching-drone/hardware/Tendon_Arm) - folder contianing the STL files used during the testing and development of the tendon claw design.
+## How to Use
 
+Once the hardware and electronics have been assembled and the mechanism software has been uploaded, to function the mechanism expects a GPIO output from the FC to actuate the claw. This tutorial focuses on manual actuation of the claw via an RF transmitter used to fly the drone manually, specifically using BetaFlight firmware.
 
-## Drone Image
-![drone_perching](./images/drone_perching.jpeg)
+### Setting Up FC Firmware
+BetaFlight is the most common drone FC firmware for FPV drones and offers a stable platform for quickly enabling the manual flight of a custom built drone.
+1. First set up BetaFlight according to the specifications of your FC of choice and drone set up (link to general tutorial: ).
+2. To enable a GPIO pin on the FC for the claw mechanism GPIO resource remapping is required, here we have embedded a good YT tutorial with resources that show how to easily implement this with your drone set up.
+3. Ensure that the GPIO pad you select on the FC has a wire connecting it to the correct pin on the RPi Pico, along with VCC and GND for powering the Pico.
+
+Another common FC firmware is iNav, which offers some automation advantages over BetaFlight by including automated drone pathing, auto-hover, return-home, etc.
+1. Set up iNav according to the specification os your FC and drone set up (link to general tutorial: ).
+2. To perform resource remapping on iNav is more difficult than in BetaFlight, to do this you have to download the iNav source code (relevant version!!), modify the resources in the code and then recompile the firmware and manually upload the firmware to the FC (link to tutorial: ).
+
+### Connecting ELRS Controller
+Once the GPIO resource has been effectively remapped according to the firmware type and tutorials above, the controller can be bound to actuate this GPIO pad in the firmware configuration (both BetaFlight and iNav). To do this most often the GPIO resource is mapped to USER1, a custom user selectable mode, when setting up RF transmitter. By setting a switch (AUX1,2,3,4 etc.) on the controller to trigger USER1, it triggers the mechanical claw activation. Reflash firmware after ensuring the controller activates USER1.
+
+### Actuate Switch
+Finally, when ready to test, unplug the drone from the firmware configurator and ensure LiPo is plugged in and controller is connected. The claw acutation should now be possible when you activate the switch (AUX1,2,3,4 etc.) on your controller that you mapped to your custom user mode (USER1), which pulls the remapped GPIO pin high for the RPi Pico.
+
+## Credits
+[MGCorbin](https://github.com/MGCorbin)
+[christiankuhlmann](https://github.com/christiankuhlmann)
+[T-Omole](https://github.com/T-Omole)
+[hans-owen](https://github.com/hans-owen)
 
 ## Licenses
 Hardware (all files stored under the [hardware](./biologically-inspired-perching-drone/hardware) folder) are under the Creative Commons Attribution-ShareAlike 4.0 International license.
@@ -99,3 +117,9 @@ Hardware (all files stored under the [hardware](./biologically-inspired-perching
 Firmware (all files stored under the [claw_control](./biologically-inspired-perching-drone/claw_control) folder) are under the MIT license.
 
 See each folders LICENSE.txt file for details.
+
+## Hardware
+In this folder you can find STL files that can be downloaded for 3D printing and the original parameterised SolidWorks CAD files and assemblies that can be modified to customise/remix the design to suit different drone and hardware configurations. 
+* [Bivalve_7_talon/](./biologically-inspired-perching-drone/hardware/Bivalve_7_talon) - folder containing the Solidworks part files and STL files for a version of the bivalve claw mechanism with additional claws (3-4 config).
+* [Bivalve_Claw_Mechanism/](./biologically-inspired-perching-drone/hardware/Bivalve_Claw_Mechanism) - folder containing the SolidWorks part files, STL files, and assembly for the bivalve claw mechanism design.
+* [Tendon_Arm/](./biologically-inspired-perching-drone/hardware/Tendon_Arm) - folder contianing the STL files used during the testing and development of the tendon claw design.
