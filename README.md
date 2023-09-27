@@ -5,6 +5,8 @@ By using 3D printing manufacturing and easy to find off-the-shelf parts we hope 
 
 Currently, only a single preliminary version has been released, which offers effective perching for 5-inch drones that can be manually triggered by a pilot via BetaFlight firmware. Although this is a good first-step/proof-of-concept, the idea has far more potential. Further iterations could offer support to more drones of different sizes and software that functions together with autopilot firmware (e.g., Ardupilot) would allow for full automation.
 
+![PerchedImage](./images/perchedonbranch.jpg)
+
 ## Table of Contents
 1. Directory Structure
 2. Getting Started
@@ -91,13 +93,13 @@ Once the hardware and electronics have been assembled and the mechanism software
 
 ### Setting Up FC Firmware
 BetaFlight is the most common drone FC firmware for FPV drones and offers a stable platform for quickly enabling the manual flight of a custom built drone.
-1. First set up BetaFlight according to the specifications of your FC of choice and drone set up (link to general tutorial: ).
-2. To enable a GPIO pin on the FC for the claw mechanism GPIO resource remapping is required, here we have embedded a good YT tutorial with resources that show how to easily implement this with your drone set up.
+1. First set up BetaFlight according to the specifications of your FC of choice and drone set up (link to [General BetaFlight Tutorial](https://www.youtube.com/watch?v=udOHBCORSrE)).
+2. To enable a GPIO pin on the FC for the claw mechanism GPIO resource remapping is required, here we have embedded a good YT tutorial with resources that show how to easily implement this with your drone set up. [BetaFlight Resource Remapping Tutorial](https://www.youtube.com/watch?v=-DiGLYbl1Jk).
 3. Ensure that the GPIO pad you select on the FC has a wire connecting it to the correct pin on the RPi Pico, along with VCC and GND for powering the Pico.
 
 Another common FC firmware is iNav, which offers some automation advantages over BetaFlight by including automated drone pathing, auto-hover, return-home, etc.
-1. Set up iNav according to the specification os your FC and drone set up (link to general tutorial: ).
-2. To perform resource remapping on iNav is more difficult than in BetaFlight, to do this you have to download the iNav source code (relevant version!!), modify the resources in the code and then recompile the firmware and manually upload the firmware to the FC (link to tutorial: ).
+1. Set up iNav according to the specification on your FC and drone set up (link to [General iNav Tutorial](https://www.youtube.com/watch?v=TXAzmrhjKNI)).
+2. To perform resource remapping on iNav is more difficult than in BetaFlight, to do this you have to download the [iNav source code](https://github.com/iNavFlight/inav) (relevant version!!), modify the resources in the code and then recompile the firmware and manually upload the firmware to the FC (link to [tutorial](https://www.wizzx.tech/552/)).
 
 ### Connecting ELRS Controller
 Once the GPIO resource has been effectively remapped according to the firmware type and tutorials above, the controller can be bound to actuate this GPIO pad in the firmware configuration (both BetaFlight and iNav). To do this most often the GPIO resource is mapped to USER1, a custom user selectable mode, when setting up RF transmitter. By setting a switch (AUX1,2,3,4 etc.) on the controller to trigger USER1, it triggers the mechanical claw activation. Reflash firmware after ensuring the controller activates USER1.
